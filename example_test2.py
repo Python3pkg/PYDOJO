@@ -6,7 +6,7 @@ screen(1280, 720)
 background('example_library/citynight.png')
 loadbackground('example_library/bedroom.png')
 
-print(screenInfo.background.costumes)
+print((screenInfo.background.costumes))
 
 uga = Actor()
 uga.pendown()
@@ -19,9 +19,9 @@ pyco.load('example_library/pyco6.png')
 
 passi = 1
 
-print(pyco.costumes)
+print((pyco.costumes))
 
-print(pyco.getposition())
+print((pyco.getposition()))
 
 # MAIN LOOP
 while True:
@@ -41,7 +41,7 @@ while True:
     if keydown(B):
         setbackground('bedroom')
         # background('example_library/bedroom.png')
-        print(screenInfo.background.costumes)
+        print((screenInfo.background.costumes))
     if keydown(C):
         setbackground('citynight')
     if keydown(F):

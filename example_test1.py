@@ -14,7 +14,7 @@ star.scale(200, 200)
 star.goto(600, 500)
 
 testo = Text('ciao', color=GREEN, italic=True)
-print(testo.costumes)
+print((testo.costumes))
 testo.setfontsize(48)
 testo.setbold(True)
 testo.goto(100, 100)
@@ -23,7 +23,7 @@ testo.goto(100, 100)
 
 hey = Sound('example_library/hey.wav')
 
-print(actorsInfo.actorsList)
+print((actorsInfo.actorsList))
 
 while True:
 
@@ -32,7 +32,7 @@ while True:
     if dyno.click():
         print('funziona')
         hey.play()
-        print(dyno.getcostume())
+        print((dyno.getcostume()))
 
     if keydown(RIGHT):
         print('destra')
@@ -55,7 +55,7 @@ while True:
         dyno.glide(testo)
 
     if keydown(W):
-        print(dyno.x, dyno.y)
+        print((dyno.x, dyno.y))
 
     star.left(1)
     # print(dyno.direction)

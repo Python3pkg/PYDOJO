@@ -17,8 +17,8 @@ fish.point(60)
 fish.bounce = True
 fish.rotation = 'flip'
 
-print(CENTER.x, CENTER.y)
-print(screenInfo.resolution)
+print((CENTER.x, CENTER.y))
+print((screenInfo.resolution))
 
 # MAIN LOOP
 while True:
@@ -39,6 +39,6 @@ while True:
 
     # FISH MOVEMENT
     fish.forward(10)
-    print(fish.direction, fish.heading)
+    print((fish.direction, fish.heading))
     # update screen and events queue
     update()

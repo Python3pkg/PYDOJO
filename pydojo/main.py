@@ -748,7 +748,7 @@ class Actor(pygame.sprite.Sprite):
             try:
                 actorsInfo.hiddenActorsList.remove(self)
             except:
-                print(actorsInfo.hiddenActorsList)
+                print((actorsInfo.hiddenActorsList))
             actorsInfo.drawList.append(self)
         else:
             pass

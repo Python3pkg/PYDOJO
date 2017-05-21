@@ -154,7 +154,7 @@ while True:
 
             power_left_motor(left_power)
             power_right_motor((right_power) * 0.8)
-            print(left_power, right_power)
+            print((left_power, right_power))
 
     #clacson
     if buttondown(2):
